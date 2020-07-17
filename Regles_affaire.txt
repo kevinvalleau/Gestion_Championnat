@@ -1,0 +1,16 @@
+Entrée de la liste d'équipes
+
+2 - chaque équipe joue un premier match
+chaque équipe doit avoir joué au moins une fois
+aucune équipe ne doit avoir déjà joué plus de 2 fois
+aucune équipe ne doit avoir rencontré deux fois la même
+
+3 - chaque équipe joue un deuxième match
+chaque équipe doit avoir joué au moins 2 fois
+aucune équipe ne doit avoir joué plus de 3 fois
+aucune équipe ne doit avoir rencontré 2 fois la même
+
+
+4 - arbitrage
+aucune équipe ne peut arbitrer pendant qu'elle joue
+aucune équipe ne peut jouer juste après avoir arbitré

@@ -1,0 +1,9 @@
+C:\Users\Kev\Source\Repos\Gestion_Championnat\Gestion_Championnat.Modeles\bin\Debug\netstandard2.0\Gestion_Championnat.Modeles.deps.json
+C:\Users\Kev\Source\Repos\Gestion_Championnat\Gestion_Championnat.Modeles\bin\Debug\netstandard2.0\Gestion_Championnat.Modeles.dll
+C:\Users\Kev\Source\Repos\Gestion_Championnat\Gestion_Championnat.Modeles\bin\Debug\netstandard2.0\Gestion_Championnat.Modeles.pdb
+C:\Users\Kev\Source\Repos\Gestion_Championnat\Gestion_Championnat.Modeles\obj\Debug\netstandard2.0\Gestion_Championnat.Modeles.csproj.CoreCompileInputs.cache
+C:\Users\Kev\Source\Repos\Gestion_Championnat\Gestion_Championnat.Modeles\obj\Debug\netstandard2.0\Gestion_Championnat.Modeles.AssemblyInfoInputs.cache
+C:\Users\Kev\Source\Repos\Gestion_Championnat\Gestion_Championnat.Modeles\obj\Debug\netstandard2.0\Gestion_Championnat.Modeles.AssemblyInfo.cs
+C:\Users\Kev\Source\Repos\Gestion_Championnat\Gestion_Championnat.Modeles\obj\Debug\netstandard2.0\Gestion_Championnat.Modeles.dll
+C:\Users\Kev\Source\Repos\Gestion_Championnat\Gestion_Championnat.Modeles\obj\Debug\netstandard2.0\Gestion_Championnat.Modeles.pdb
+C:\Users\Kev\Source\Repos\Gestion_Championnat\Gestion_Championnat.Modeles\obj\Debug\netstandard2.0\Gestion_Championnat.Modeles.csprojAssemblyReference.cache

@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Gestion_Championnat.Modeles\Gestion_Championnat.Modeles.csproj" />
+  </ItemGroup>
+
+</Project>

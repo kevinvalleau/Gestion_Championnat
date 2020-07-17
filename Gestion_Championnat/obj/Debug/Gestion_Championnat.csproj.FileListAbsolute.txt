@@ -1,0 +1,9 @@
+C:\Users\Kev\Source\Repos\Gestion_Championnat\Gestion_Championnat\bin\Debug\Gestion_Championnat.exe.config
+C:\Users\Kev\Source\Repos\Gestion_Championnat\Gestion_Championnat\bin\Debug\Gestion_Championnat.exe
+C:\Users\Kev\Source\Repos\Gestion_Championnat\Gestion_Championnat\bin\Debug\Gestion_Championnat.pdb
+C:\Users\Kev\Source\Repos\Gestion_Championnat\Gestion_Championnat\obj\Debug\Gestion_Championnat.csprojAssemblyReference.cache
+C:\Users\Kev\Source\Repos\Gestion_Championnat\Gestion_Championnat\obj\Debug\Gestion_Championnat.Properties.Resources.resources
+C:\Users\Kev\Source\Repos\Gestion_Championnat\Gestion_Championnat\obj\Debug\Gestion_Championnat.csproj.GenerateResource.cache
+C:\Users\Kev\Source\Repos\Gestion_Championnat\Gestion_Championnat\obj\Debug\Gestion_Championnat.csproj.CoreCompileInputs.cache
+C:\Users\Kev\Source\Repos\Gestion_Championnat\Gestion_Championnat\obj\Debug\Gestion_Championnat.exe
+C:\Users\Kev\Source\Repos\Gestion_Championnat\Gestion_Championnat\obj\Debug\Gestion_Championnat.pdb
