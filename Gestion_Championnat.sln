@@ -13,6 +13,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gestion_Championnat.Logique
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EDE6CF0-AE8C-45F8-A39F-80821F658738}"
 	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
 		Regles_affaire.txt = Regles_affaire.txt
 	EndProjectSection
 EndProject

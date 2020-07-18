@@ -1,14 +1,26 @@
-﻿using Gestion_Championnat.Modeles;
+﻿#region "Librairies"
+using Gestion_Championnat.Modeles;
 using System;
-using System.Collections;
 using System.Collections.Generic;
+#endregion
 
 namespace Gestion_Championnat.Logique
 {
+    /// <summary>
+    /// Stratégie de génération des matches.
+    /// Utilisation du patron de conception Strategy qui permet de transformer et d'utiliser
+    /// un algorithme sous forme d'objet.
+    /// </summary>
     public class Strategie_Generation_Matches
     {
+        #region "Attributs"
         public IList<Equipe> equipes { get; private set; }
+        #endregion
 
+        /// <summary>
+        /// Constructeur de la classe
+        /// </summary>
+        /// <param name="_equipes">List des équipes <see cref="IList{Equipe}"/></param>
         public Strategie_Generation_Matches(IList<Equipe> _equipes)
         {
             if (_equipes == null)
@@ -47,6 +59,10 @@ namespace Gestion_Championnat.Logique
             this.equipes = _equipes;
         }
 
+        /// <summary>
+        /// Méthode de génération des matches
+        /// </summary>
+        /// <returns></returns>
         public IList<Match> Generer_Matches()
         {
             // On génère les premiers matches
@@ -60,6 +76,10 @@ namespace Gestion_Championnat.Logique
             return matches;
         }
 
+        /// <summary>
+        /// Méthode permettant de générer les premiers matches
+        /// </summary>
+        /// <returns>Liste des premiers matches <see cref="IList{Match}"/></returns>
         public IList<Match> Generer_Premiers_Matches()
         {
             int cptMatch = 1;
@@ -81,6 +101,11 @@ namespace Gestion_Championnat.Logique
             return premiersMatches;
         }
 
+        /// <summary>
+        /// Méthode permettant de générer la deuxième vague de matches
+        /// </summary>
+        /// <param name="_matches">Liste des matches déjà générés en première vague <see cref="IList{Match}"/></param>
+        /// <returns>Liste des matches première et deuxième vague</returns>
         public IList<Match> Generer_Deuxiemes_Matches(IList<Match> _matches)
         {
             int cptMatch = _matches[_matches.Count - 1].id + 1;
@@ -132,6 +157,12 @@ namespace Gestion_Championnat.Logique
             return _matches;
         }
 
+        /// <summary>
+        /// Méthode permettant de savoir si un match est en double
+        /// </summary>
+        /// <param name="matches">Liste des matches <see cref="IList{Match}"/></param>
+        /// <param name="match">Match à vérifier <see cref="Match"/></param>
+        /// <returns>true si le match est en double, false sinon</returns>
         public bool Match_En_Double(IList<Match> matches, Match match)
         {
             bool matchEnDouble = false;
@@ -147,6 +178,12 @@ namespace Gestion_Championnat.Logique
             return matchEnDouble;
         }
 
+        /// <summary>
+        /// Méthode permettant de vérifier si une équipe a joué 2 fois
+        /// </summary>
+        /// <param name="matches">Liste des matches <see cref="IList{Match}"/></param>
+        /// <param name="equipe2">Équipe à vérifier <see cref="Equipe"/></param>
+        /// <returns></returns>
         public bool Equipe_Deux_A_Joue_Deux_Fois(IList<Match> matches, Equipe equipe2)
         {
             int nbMatchEquipe = 0;

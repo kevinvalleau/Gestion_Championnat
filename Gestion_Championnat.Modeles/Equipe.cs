@@ -1,7 +1,13 @@
-﻿using System;
+﻿#region "Librairies"
+using System;
+#endregion
 
 namespace Gestion_Championnat.Modeles
 {
+    /// <summary>
+    /// Classe représentant une équipe.
+    /// Implémente l'interface <see cref="IEquatable{T}"/>
+    /// </summary>
     public class Equipe:IEquatable<Equipe>
     {
         /// <summary>
@@ -21,7 +27,7 @@ namespace Gestion_Championnat.Modeles
         /// <summary>
         /// On redéfinit la méthode de contrôle d'égalité sur les équipes
         /// </summary>
-        /// <param name="other">Autre équipe à comparer</param>
+        /// <param name="other">Autre équipe à comparer <see cref="Equipe"/></param>
         /// <returns></returns>
         public bool Equals(Equipe other)
         {

@@ -1,17 +1,29 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿#region Librairies
+using System;
+#endregion
 
 namespace Gestion_Championnat.Modeles
 {
+    /// <summary>
+    /// Classe représentant un match entre deux équipes.
+    /// Implémente l'interface <see cref="IEquatable{T}"/>
+    /// </summary>
     public class Match:IEquatable<Match>
     {
+        #region Attributs
         public int id { get; set; }
         public Equipe equipe1 { get; set; }
         public Equipe equipe2 { get; set; }
         public Equipe arbitre1 { get; set; }
         public Equipe arbitre2 { get; set; }
+        #endregion
 
+        /// <summary>
+        /// Constructeur de la classe
+        /// </summary>
+        /// <param name="_id">Identifiant du match</param>
+        /// <param name="_equipe1">Équipe 1 <see cref="Equipe"/></param>
+        /// <param name="_equipe2">Équipe 2 <see cref="Equipe"/></param>
         public Match(int _id, Equipe _equipe1, Equipe _equipe2)
         {
             // Ce sont les clauses de garde qui assurent que le programme plante si on essaie de créer un match
@@ -29,6 +41,14 @@ namespace Gestion_Championnat.Modeles
 
         }
 
+        /// <summary>
+        /// Constructeur auxiliaire permettant de définir les équipes qui arbitrent
+        /// </summary>
+        /// <param name="_id">Identifiant du match</param>
+        /// <param name="_equipe1">Équipe 1 <see cref="Equipe"/></param>
+        /// <param name="_equipe2">Équipe 2 <see cref="Equipe"/></param>
+        /// <param name="_arbitre1">Arbitre 1 <see cref="Equipe"/></param>
+        /// <param name="_arbitre2">Arbitre 2 <see cref="Equipe"/></param>
         public Match(int _id, Equipe _equipe1, Equipe _equipe2, Equipe _arbitre1, Equipe _arbitre2)
         {
             // Ce sont les clauses de garde qui assurent que le programme plante si on essaie de créer un match
@@ -59,7 +79,7 @@ namespace Gestion_Championnat.Modeles
         /// <summary>
         /// Surcharge de la méthode de vérification d'égalité
         /// </summary>
-        /// <param name="other"></param>
+        /// <param name="other"><see cref="Match"/></param>
         /// <returns></returns>
         public bool Equals(Match other)
         {
