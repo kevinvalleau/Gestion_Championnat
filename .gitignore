@@ -1,0 +1,10 @@
+/.vs
+/packages
+/Gestion_Championnat/bin
+/Gestion_Championnat/obj
+/Gestion_Championnat.Logique/bin
+/Gestion_Championnat.Logique/obj
+/Gestion_Championnat.Modeles/bin
+/Gestion_Championnat.Modeles/obj
+/Gestion_Championnat.Logique.Tests/bin
+/Gestion_Championnat.Logique.Tests/obj
